@@ -633,7 +633,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #lab-name {
   font-family: 'D-DIN Regular', serif;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 15px;
   letter-spacing: 1.14px;
   margin-top: 15px;
@@ -800,41 +801,53 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- OUR THINKING SECTION ------- */
 #our-thinking-title {
-  margin: 2em 0 1em 20%;
+  margin: 2em 0 1em 30%;
   text-align: right;
 }
 #our-thinking-background {
-  height: 200%;
+  margin: 0 5%;
+  width: 90%;
 }
 #our-thinking-1 {
   background-color: white;
   padding: 3em;
   margin: 1em;
   box-shadow: 0 2px 40px 0 rgba(0,0,0,0.15);
+  height: 100%;
 }
 #our-thinking-2 {
   background-color: white;
   padding: 3em;
   margin: 1em;
   box-shadow: 0 2px 40px 0 rgba(0,0,0,0.15);
+  height: 100%;
 }
 
 @media (min-width: 768px) {
-  #our-thinking-background {
-    margin: 0 5%;
-    padding: 5em 1em;
+  #our-thinking-box {
+    position: absolute;
+    left: calc((100% - 700px)/2);
+    height: 500px;
+    width: 700px;
     background-color: black;
+  }
+  #our-thinking-background {
+    max-width: 900px;
+    margin: 0 auto 5em;
+    /*padding: 5em 1em;*/
+    /*background-color: black;*/
   }
   #our-thinking-1 {
     margin: 0;
     position: relative;
-    top: 10em;
+    top: 16em;
+    min-height: 350px;
   }
   #our-thinking-2 {
     margin: 0;
     position: relative;
-    top: -13em;
-    right: 1em;
+    top: -8em;
+    min-height: 300px;
   }
   #our-thinking-heading {
     margin-top: 50px;
@@ -1057,7 +1070,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
     height: auto;
   }
-
   #agile-text {
     top: auto;
     left: auto;
