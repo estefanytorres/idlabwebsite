@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77a9542d-683c-41a7-9298-ed54114ebf1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="835" column="22" selection-start-line="835" selection-start-column="22" selection-end-line="835" selection-end-column="22" />
+            <state relative-caret-position="339">
+              <caret line="855" column="21" lean-forward="true" selection-start-line="855" selection-start-column="21" selection-end-line="855" selection-end-column="21" />
               <folding>
                 <element signature="e#145#226#0" />
                 <element signature="e#230#251#0" />
@@ -188,7 +187,6 @@
                 <element signature="e#14761#14806#0" />
                 <element signature="e#14829#14850#0" />
                 <element signature="e#14870#14994#0" />
-                <element signature="e#15840#15867#0" />
                 <element signature="e#14767#14789#0" />
                 <element signature="e#14809#14977#0" />
                 <element signature="e#14998#15054#0" />
@@ -459,12 +457,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568653496726</updated>
       <workItem from="1568653497837" duration="11956000" />
-      <workItem from="1568747673779" duration="14708000" />
+      <workItem from="1568747673779" duration="14989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26664000" />
+    <option name="totallyTimeSpent" value="26945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -520,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="134" column="43" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/what-we-do.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -534,10 +525,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="134" column="43" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="835" column="22" selection-start-line="835" selection-start-column="22" selection-end-line="835" selection-end-column="22" />
+        <state relative-caret-position="339">
+          <caret line="855" column="21" lean-forward="true" selection-start-line="855" selection-start-column="21" selection-end-line="855" selection-end-column="21" />
           <folding>
             <element signature="e#145#226#0" />
             <element signature="e#230#251#0" />
@@ -666,7 +664,6 @@
             <element signature="e#14761#14806#0" />
             <element signature="e#14829#14850#0" />
             <element signature="e#14870#14994#0" />
-            <element signature="e#15840#15867#0" />
             <element signature="e#14767#14789#0" />
             <element signature="e#14809#14977#0" />
             <element signature="e#14998#15054#0" />

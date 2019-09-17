@@ -826,16 +826,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 768px) {
   #our-thinking-box {
     position: absolute;
-    left: calc((100% - 700px)/2);
+    left: calc((100% - 768px)/2);
     height: 500px;
-    width: 700px;
+    width: 768px;
     background-color: black;
   }
   #our-thinking-background {
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto 5em;
-    /*padding: 5em 1em;*/
-    /*background-color: black;*/
   }
   #our-thinking-1 {
     margin: 0;
@@ -851,6 +849,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #our-thinking-heading {
     margin-top: 50px;
+  }
+}
+
+@media (min-width: 1025px) {
+  #our-thinking-box {
+    left: calc((100% - 850px)/2);
+    width: 850px;
   }
 }
 
