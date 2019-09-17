@@ -696,12 +696,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ------- STRATEGIES SECTION ------- */
 #strategies-text {
   background-color: rgba(30, 34, 44, .8);
-  padding: 8% 5%;
+  padding: 5%;
 }
-#strategies-title {
-  margin: 0 0 5% 0;
+.strategies-title {
+  margin: 5% 0;
 }
-#strategies-description {
+.strategies-description {
   letter-spacing: 1px;
 }
 .btn-case-studies {
