@@ -695,11 +695,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- STRATEGIES SECTION ------- */
 #strategies-text {
-  background-color: rgba(30, 34, 44, .8);
+  background-color: rgb(15, 20, 41);
   padding: 5%;
 }
 .strategies-title {
-  margin: 5% 0;
+  margin-bottom: 5%;
 }
 .strategies-description {
   letter-spacing: 1px;
