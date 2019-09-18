@@ -158,7 +158,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
+.just-link {
+  display: ;
+}
 
 /* ------- UI ------- */
 #preloader {
@@ -853,7 +855,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     left: calc((100% - 768px)/2);
     height: 500px;
     width: 768px;
-    background-color: black;
+    background: url('../img/our-thinking.jpg') no-repeat;
+    background-size: cover;
   }
   #our-thinking-background {
     max-width: 950px;
