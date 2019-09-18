@@ -719,84 +719,91 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ------- FOUNDATION SECTION ------- */
-#foundation-yele {
-  padding: 90px 8%;
-  position: relative;
-  margin-bottom: 15%;
-}
-#foundation-pic {
-  padding-top: 30px;
-}
-#foundation-pic img {
-  width: 80%;
-  box-shadow: 0 0 20px rgba(33,33,33,.4);
+#foundation-pic img{
+  width: 100%;
+  margin-top: 2em;
 }
 #foundation-text {
-  position: absolute;
-  top: 40%;
-  left: 7%;
   z-index: -1;
-  color: black;
 }
 #foundation-title {
-  padding-top: 30px;
-  padding-bottom: 32px;
+  font-family: 'D-DIN DIN-Bold', serif;
+  font-size: 26px;
+  color: #0E0E0E;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 2em 0
 }
 #foundation-description {
-  line-height: 32px;
-  padding: 90px 125px 90px 65px;
+  padding: 2em;
   background: #EFF0F1;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 1px;
+  line-height: 30px;
 }
 .divider {
-  margin-left: 15px;
-  position: relative;
+  display: none;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 768px) {
   #foundation-yele {
-    padding: 0;
-    position: static;
-    margin-bottom: 0 !important;
-  }
-  #foundation-text {
-    position: inherit;
-  }
-  .divider {
-    display: none;
-  }
-  #foundation-description {
-    padding: 40px;
-  }
-}
-@media (max-width: 1140px) {
-  #foundation-yele {
-    margin-bottom: 35%;
-  }
-  #foundation-pic img {
-    width: 100%;
-  }
-  #foundation-text {
-    top: 35%;
-    left: 10%;
-  }
-}
-@media (max-width: 768px) and (min-width: 576px) {
-  #foundation-yele {
-    padding: 0;
-    margin-bottom: 50%;
-  }
-  #foundation-pic img {
-    width: 80%;
+    padding: 5em;
+    min-height: 900px;
   }
   #foundation-text {
     position: absolute;
     top: 100px;
-    left: 0;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    right: 35%;
+    width: 450px;
+  }
+  #foundation-title {
+    margin-left: 2em;
+  }
+  .inner {
+    width: 120px;
+  }
+  #foundation-description {
+    padding: 3em;
+  }
+  #foundation-pic {
+    position: absolute;
+    left: 60%;
+    width: 250px;
+  }
+  #foundation-pic img {
+    width: 250px;
+  }
+  .divider {
+    display: inherit;
+    margin-left: 1em;
   }
 }
+@media (min-width: 1200px) {
+  #foundation-text {
+    top: 200px;
+    right: 40%;
+    width: 570px;
+  }
+  #foundation-title {
+    margin-left: 3em;
+  }
+  .inner {
+    width: 200px;
+  }
+  #foundation-description {
+    padding: 5em;
+  }
+  #foundation-pic {
+    left: 55%;
+    width: 350px;
+  }
+  #foundation-pic img {
+    width: 350px;
+  }
+}
+
 
 /* ------- OUR THINKING SECTION ------- */
 #our-thinking-title {
