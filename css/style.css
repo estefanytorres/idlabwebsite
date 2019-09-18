@@ -227,9 +227,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .txt-xl {
   font-family: 'D-DIN DIN-Bold', serif;
-  font-size: 55px;
-  line-height: 73px;
-  letter-spacing: 4px;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 2px;
   color: black;
 }
 .txt-lg {
@@ -248,10 +248,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 .txt-rg {
   font-family: 'D-DIN Regular', serif;
-  font-size: 16px;
+  font-size: 14px;
   color: black;
-  letter-spacing: 1.03px;
-  line-height: 22px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+@media (min-width: 768px) {
+  .txt-xl {
+    font-size: 55px;
+    line-height: 73px;
+    letter-spacing: 4px;
+  }
+  .txt-rg {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 22px;
+  }
 }
 
 
@@ -633,9 +646,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #lab-name {
     font-family: 'D-DIN Regular', serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 15px;
-    letter-spacing: 1.14px;
+    letter-spacing: 1px;
     margin-top: 15px;
     color: #0182FF;
 }
@@ -666,11 +679,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 20px;
 }
 #welcome-heading {
-  padding-top: 15%;
-  padding-left: 12%;
+  padding: calc(70px + 5%) 10% 10%;
+  height: calc((100vh - 180px));
 }
 #bottom-arrow {
   margin: 5em 0 2em 0;
+  height: 100%;
 }
 #button-arrow {
   display: flex;
@@ -686,22 +700,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 
-@media (max-width: 768px) {
-  #welcome-heading {
-    padding-left: 10%;
+@media(min-width: 768px) {
+  #lab-name {
+    font-size: 14px;
   }
 }
 
 /* ------- STRATEGIES SECTION ------- */
 #strategies-text {
   background-color: rgb(15, 20, 41);
-  padding: 5%;
+  padding: 2em;
 }
 .strategies-title {
   margin-bottom: 5%;
 }
 .strategies-description {
   letter-spacing: 1px;
+  justify-content: center;
 }
 .btn-case-studies {
   padding-left: 0 !important;
@@ -806,8 +821,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- OUR THINKING SECTION ------- */
 #our-thinking-title {
-  margin: 2em 0 1em 30%;
-  text-align: right;
+  margin: 2em auto;
+  text-align: center;
 }
 #our-thinking-background {
   margin: 0 5%;
@@ -816,19 +831,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 #our-thinking-1 {
   background-color: white;
   padding: 3em;
-  margin: 1em;
+  margin-bottom: 1em;
   box-shadow: 0 2px 40px 0 rgba(0,0,0,0.15);
   height: 100%;
 }
 #our-thinking-2 {
   background-color: white;
   padding: 3em;
-  margin: 1em;
+  margin-bottom: 1em;
   box-shadow: 0 2px 40px 0 rgba(0,0,0,0.15);
   height: 100%;
 }
 
 @media (min-width: 768px) {
+  #our-thinking-title {
+    margin: 2em 0 1em 30%;
+    text-align: right;
+  }
   #our-thinking-box {
     position: absolute;
     left: calc((100% - 768px)/2);
@@ -866,7 +885,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- OUR CLIENTS SECTION ------- */
 #our-clients {
-  padding: 10em 0;
+  padding: 2em 0;
 }
 #our-clients-title {
   font-family: 'D-DIN DIN-Bold', serif;
@@ -899,6 +918,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 5%;
 }
 .leadership-group {
+  padding: 1% 0;
   padding: 0 5% 10%;
 }
 .leadership-item {
@@ -940,9 +960,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 3%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .leadership-group {
-    padding: 1% 0;
+    padding: 0 5% 10%;
+  }
+  #our-clients {
+    padding: 10em 0;
   }
 }
 
@@ -1316,6 +1339,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #6FC5FF;
   margin-top: 50px;
   color: black;
+  padding: 3% 0;
 }
 .alumni-position {
   color: white;
@@ -1324,13 +1348,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   background: white;
   margin-bottom: 35px;
+  margin-top: 35px;
   width: 50px;
   height: 50px;
 }
 #button-show a {
   color: black;
 }
-
+#fixed-list .team-group, #hidden-list .team-group {
+  padding: 0 10%;
+}
 /*----------------------------------------------------------------------------------------------------------------------
 # Get in touch Page
 ----------------------------------------------------------------------------------------------------------------------*/
