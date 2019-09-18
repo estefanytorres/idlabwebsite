@@ -632,13 +632,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(216, 216, 216, 0);
 }
 #lab-name {
-  font-family: 'D-DIN Regular', serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 15px;
-  letter-spacing: 1.14px;
-  margin-top: 15px;
-  color: #0182FF;
+    font-family: 'D-DIN Regular', serif;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1.14px;
+    margin-top: 15px;
+    color: #0182FF;
 }
 #btn-welcome {
   font-family: 'D-DIN DIN-Bold', serif;
@@ -1000,14 +999,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   padding: 0 !important;
 }
-.video-wrapper > video {
+.video-wrapper > iframe {
   width: 100%;
+  height: 100vh;
   vertical-align: middle;
   object-fit: cover;
 }
-.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
-  display: none;
-}
+/*.video-wrapper > video {*/
+/*  width: 100%;*/
+/*  vertical-align: middle;*/
+/*  object-fit: cover;*/
+/*}*/
+/*.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {*/
+/*  display: none;*/
+/*}*/
 .video-overlay-play-button {
   box-sizing: border-box;
   width: 100%;
