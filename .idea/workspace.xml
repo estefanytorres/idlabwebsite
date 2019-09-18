@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a9542d-683c-41a7-9298-ed54114ebf1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get-in-touch.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-in-touch.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="829" column="12" selection-start-line="829" selection-start-column="12" selection-end-line="829" selection-end-column="12" />
+            <state relative-caret-position="108">
+              <caret line="748" lean-forward="true" selection-start-line="748" selection-end-line="748" />
               <folding>
                 <element signature="e#145#226#0" />
                 <element signature="e#230#251#0" />
@@ -150,6 +149,25 @@
                 <element signature="e#13220#13298#0" />
                 <element signature="e#13321#13385#0" />
                 <element signature="e#13404#13438#0" />
+                <element signature="e#14503#14509#0" />
+                <element signature="e#14296#14324#0" />
+                <element signature="e#14549#14577#0" />
+                <element signature="e#14429#14449#0" />
+                <element signature="e#14336#14360#0" />
+                <element signature="e#14985#15068#0" />
+                <element signature="e#15084#15094#0" />
+                <element signature="e#15176#15203#0" />
+                <element signature="e#15215#15238#0" />
+                <element signature="e#15330#15340#0" />
+                <element signature="e#15247#15257#0" />
+                <element signature="e#15476#15486#0" />
+                <element signature="e#15392#15441#0" />
+                <element signature="e#15512#15595#0" />
+                <element signature="e#15604#15631#0" />
+                <element signature="e#15641#15664#0" />
+                <element signature="e#15642#15665#0" />
+                <element signature="e#15684#15754#0" />
+                <element signature="e#15617#15640#0" />
                 <element signature="e#14767#14789#0" />
                 <element signature="e#14809#14977#0" />
                 <element signature="e#14998#15054#0" />
@@ -311,11 +329,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get-in-touch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="124" column="14" lean-forward="true" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
+            <state relative-caret-position="198">
+              <caret line="114" column="66" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -348,12 +366,12 @@
       <find>intro-play</find>
       <find>enqui</find>
       <find>video-wrapper</find>
-      <find>call-to-action</find>
       <find>melann</find>
       <find>font-family</find>
       <find>knowd</find>
       <find>foundation</find>
       <find>.divider</find>
+      <find>call-to-action</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -364,10 +382,10 @@
       <list>
         <option value="$PROJECT_DIR$/css/style-new.css" />
         <option value="$PROJECT_DIR$/what-we-do.html" />
-        <option value="$PROJECT_DIR$/get-in-touch.html" />
         <option value="$PROJECT_DIR$/our-team.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/get-in-touch.html" />
       </list>
     </option>
   </component>
@@ -400,12 +418,6 @@
               <item name="iDLab_NewWebsite_Final" type="b2602c69:ProjectViewProjectNode" />
               <item name="iDLab_NewWebsite_Final" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iDLab_NewWebsite_Final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iDLab_NewWebsite_Final" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="faculty" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,12 +467,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568653496726</updated>
       <workItem from="1568653497837" duration="11956000" />
-      <workItem from="1568747673779" duration="28692000" />
+      <workItem from="1568747673779" duration="29113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40648000" />
+    <option name="totallyTimeSpent" value="41069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -509,22 +521,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/what-we-do.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/member-image.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get-in-touch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="124" column="14" lean-forward="true" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/our-team.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -554,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="829" column="12" selection-start-line="829" selection-start-column="12" selection-end-line="829" selection-end-column="12" />
+        <state relative-caret-position="108">
+          <caret line="748" lean-forward="true" selection-start-line="748" selection-end-line="748" />
           <folding>
             <element signature="e#145#226#0" />
             <element signature="e#230#251#0" />
@@ -668,6 +666,25 @@
             <element signature="e#13220#13298#0" />
             <element signature="e#13321#13385#0" />
             <element signature="e#13404#13438#0" />
+            <element signature="e#14503#14509#0" />
+            <element signature="e#14296#14324#0" />
+            <element signature="e#14549#14577#0" />
+            <element signature="e#14429#14449#0" />
+            <element signature="e#14336#14360#0" />
+            <element signature="e#14985#15068#0" />
+            <element signature="e#15084#15094#0" />
+            <element signature="e#15176#15203#0" />
+            <element signature="e#15215#15238#0" />
+            <element signature="e#15330#15340#0" />
+            <element signature="e#15247#15257#0" />
+            <element signature="e#15476#15486#0" />
+            <element signature="e#15392#15441#0" />
+            <element signature="e#15512#15595#0" />
+            <element signature="e#15604#15631#0" />
+            <element signature="e#15641#15664#0" />
+            <element signature="e#15642#15665#0" />
+            <element signature="e#15684#15754#0" />
+            <element signature="e#15617#15640#0" />
             <element signature="e#14767#14789#0" />
             <element signature="e#14809#14977#0" />
             <element signature="e#14998#15054#0" />
@@ -803,6 +820,20 @@
             <element signature="e#32946#32971#0" />
             <element signature="e#32990#33019#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/what-we-do.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-in-touch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="114" column="66" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
         </state>
       </provider>
     </entry>
