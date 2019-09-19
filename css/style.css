@@ -865,13 +865,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   #our-thinking-1 {
     margin: 0;
     position: relative;
-    top: 16em;
+    top: -8em;
+    left: 50%;
     min-height: 350px;
   }
   #our-thinking-2 {
     margin: 0;
     position: relative;
-    top: -8em;
+    top: 16em;
+    right: 50%;
     min-height: 300px;
   }
   #our-thinking-heading {
