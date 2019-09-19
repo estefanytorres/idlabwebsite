@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77a9542d-683c-41a7-9298-ed54114ebf1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="875" column="9" selection-start-line="875" selection-start-column="9" selection-end-line="875" selection-end-column="9" />
+            <state relative-caret-position="-51">
+              <caret line="736" column="27" lean-forward="true" selection-start-line="736" selection-start-column="27" selection-end-line="736" selection-end-column="27" />
               <folding>
                 <element signature="e#145#226#0" />
                 <element signature="e#230#251#0" />
@@ -168,9 +167,13 @@
                 <element signature="e#12763#12789#0" />
                 <element signature="e#12804#12916#0" />
                 <element signature="e#12933#12985#0" />
+                <element signature="e#13045#13108#0" />
+                <element signature="e#13127#13150#0" />
+                <element signature="e#13175#13201#0" />
                 <element signature="e#13220#13298#0" />
                 <element signature="e#13321#13385#0" />
                 <element signature="e#13404#13438#0" />
+                <element signature="e#14065#14075#0" />
                 <element signature="e#14503#14509#0" />
                 <element signature="e#14296#14324#0" />
                 <element signature="e#14549#14577#0" />
@@ -447,12 +450,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568653496726</updated>
       <workItem from="1568653497837" duration="11956000" />
-      <workItem from="1568747673779" duration="36338000" />
+      <workItem from="1568747673779" duration="36626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48294000" />
+    <option name="totallyTimeSpent" value="48582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -541,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="875" column="9" selection-start-line="875" selection-start-column="9" selection-end-line="875" selection-end-column="9" />
+        <state relative-caret-position="-51">
+          <caret line="736" column="27" lean-forward="true" selection-start-line="736" selection-start-column="27" selection-end-line="736" selection-end-column="27" />
           <folding>
             <element signature="e#145#226#0" />
             <element signature="e#230#251#0" />
@@ -650,9 +653,13 @@
             <element signature="e#12763#12789#0" />
             <element signature="e#12804#12916#0" />
             <element signature="e#12933#12985#0" />
+            <element signature="e#13045#13108#0" />
+            <element signature="e#13127#13150#0" />
+            <element signature="e#13175#13201#0" />
             <element signature="e#13220#13298#0" />
             <element signature="e#13321#13385#0" />
             <element signature="e#13404#13438#0" />
+            <element signature="e#14065#14075#0" />
             <element signature="e#14503#14509#0" />
             <element signature="e#14296#14324#0" />
             <element signature="e#14549#14577#0" />

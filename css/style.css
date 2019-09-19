@@ -734,6 +734,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100%;
 }
 
+@media (min-width: 768px) {
+  #strategies-text {
+    padding: 8% 5%;
+  }
+}
+
 /* ------- FOUNDATION SECTION ------- */
 #foundation-pic img{
   width: 100%;
