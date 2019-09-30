@@ -646,6 +646,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   min-height: 100vh;
   background: rgba(216, 216, 216, 0);
 }
+#welcome-heading {
+  padding: calc(70px + 5%) 10% 0;
+  height: calc((100vh - 180px));
+}
 #lab-name {
     font-family: 'D-DIN Regular', serif;
     font-size: 12px;
@@ -665,7 +669,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 25px;
   position: relative;
 }
-
 #btn-welcome span {
   font-size: 14px;
   position: absolute;
@@ -676,14 +679,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
 #btn-welcome:hover span {
   margin-left: 20px;
 }
-#welcome-heading {
-  padding: calc(70px + 5%) 10% 10%;
-  height: calc((100vh - 180px));
-}
+
 #bottom-arrow {
   margin: 5em 0 2em 0;
   height: 100%;
@@ -703,6 +702,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media(min-width: 768px) {
+  #welcome-heading {
+    padding-top: calc(70px + 15vh);
+  }
   #lab-name {
     font-size: 14px;
   }
@@ -828,6 +830,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* ------- OUR THINKING SECTION ------- */
+#our-thinking h2 {
+  color: #0182FF;
+}
 #our-thinking-title {
   margin: 2em auto;
   text-align: center;
@@ -896,27 +901,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- OUR CLIENTS SECTION ------- */
 #our-clients {
-  padding: 2em 0;
+  padding: 2em;
 }
 #our-clients-title {
   font-family: 'D-DIN DIN-Bold', serif;
   font-size: 26px;
-  letter-spacing: 1.9px;
+  letter-spacing: 2px;
   line-height: 28px;
   color: black;
   margin-top: 127px;
   margin-bottom: 60px;
 }
-.our-clients-client {
-  margin: 21px 15px;
-  width: 200px;
-  height: 52px;
-}
-.cdw-logo {
-  width: 200px;
-  height: 160px;
-}
+#our-clients-list {
 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 160px;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+@media (min-width: 768px) {
+  #our-clients {
+    padding: 10em 5em;
+  }
+  #our-clients-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  #our-clients-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /* ------- LEADERSHIP SECTION ------- */
 #leadership {
   background: rgba(216, 216, 216, .16);
@@ -929,7 +945,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 5%;
 }
 .leadership-group {
-  padding: 1% 0;
+  /*padding: 1% 0;*/
   padding: 0 5% 10%;
 }
 .leadership-item {
@@ -974,9 +990,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 768px) {
   .leadership-group {
     padding: 0 5% 10%;
-  }
-  #our-clients {
-    padding: 10em 0;
   }
 }
 
