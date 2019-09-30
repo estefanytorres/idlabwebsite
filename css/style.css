@@ -158,9 +158,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.just-link {
-  display: ;
-}
 
 /* ------- UI ------- */
 #preloader {
@@ -331,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  /*background: url(../img/hero-bg.jpg) top center;*/
   background-size: cover;
   position: relative;
 }
@@ -1440,11 +1437,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- VISIT SECTION ------- */
 #visit-details {
-  padding: 5%;
+  padding: 2em;
   background: #D8D8D8;
 }
 #visit-details .txt-rg {
-  width: 75%;
+  /*width: 75%;*/
+  margin: 25px 0 !important;
+}
+#visit-title {
+  font-family: 'D-DIN DIN-Bold', serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  color: black;
+}
+#visit-btn {
+  margin: 0;
 }
 
 @media (max-width: 992px ) {
@@ -1476,7 +1484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #address-title {
   font-family: 'D-DIN DIN-Bold', serif;
   font-size: 32px;
-  letter-spacing: 2.35px;
+  letter-spacing: 2px;
   line-height: 35px;
   color: black;
 }
