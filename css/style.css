@@ -1013,9 +1013,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0;
   margin: 0 auto 1em;
   font-family: 'D-DIN DIN-Bold', serif;
-  font-size: 32px;
-  letter-spacing: 2.5px;
-  line-height: 35px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  line-height: 50px;
   color: black;
 }
 #activity-heading-text {
@@ -1086,7 +1086,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 768px) {
   #activity-heading {
-    padding: calc(75px + 10%) 20% 10%;
+    padding: calc(75px + 10%) 10% 10%;
   }
   #activity-heading-title {
     width: 70%;
@@ -1362,6 +1362,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: black;
   padding: 3% 0;
 }
+#alumni-list .group-title {
+  margin-bottom: 2em;
+}
 .alumni-position {
   color: white;
 }
@@ -1601,17 +1604,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #footer-text {
   font-family: 'D-DIN Regular', serif;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: .7px;
-  line-height: 18px;
+  line-height: 20px;
   color: white;
   padding: 2% 0;
 }
 #footer-right {
   font-family: 'D-DIN Regular', serif;
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: .7px;
-  line-height: 18px;
+  line-height: 20px;
   padding-top: 75px;
   padding-left: 23px;
 }
