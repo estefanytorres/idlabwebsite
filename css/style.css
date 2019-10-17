@@ -1160,7 +1160,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 2em 0;
 }
 .case-study-image {
-  width: 100%;
+  width: 100% !important;
   height: 20%;
 }
 .case-study-text {
