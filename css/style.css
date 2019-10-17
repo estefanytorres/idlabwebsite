@@ -1176,7 +1176,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 5%;
   color: black;
 }
-.case-study-left-text.case-study-text {
+.case-study-left-text {
   left: 30%;
 }
 .case-study-right {
