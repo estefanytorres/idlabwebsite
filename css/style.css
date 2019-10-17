@@ -741,7 +741,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- FOUNDATION SECTION ------- */
 #foundation-pic img{
-  width: 100%;
+  width: 100% !important;
   margin-top: 2em;
 }
 #foundation-text {
