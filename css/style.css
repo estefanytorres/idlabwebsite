@@ -1145,54 +1145,34 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ------- CASE STUDIES SECTION ------- */
 #case-studies {
-  padding: 5% 0 10%;
-  height: 200%;
+  padding: 2em;
   background: rgba(216, 216, 216, .3);
 }
 #case-studies-title {
-  font-family: 'D-DIN Regular', serif;
-  font-weight: bold;
+  margin: .5em;
+  font-family: 'D-DIN DIN-Bold', serif;
   font-size: 26px;
-  letter-spacing: 1.9px;
+  letter-spacing: 2px;
   line-height: 28px;
   color: black;
-  padding-left: 8%;
 }
-.case-study-description {
-  margin: 5% 0;
-}
-.case-study-description.txt-lg {
-  margin-top: 0;
+.case-study {
+  margin: 2em 0;
 }
 .case-study-image {
-  margin-bottom: 5em;
+  width: 100%;
 }
 .case-study-text {
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  background: #fff;
-  z-index: 11;
-  padding: 5%;
-  color: black;
+  padding: 2em;
 }
-.case-study-left-text {
-  left: 30%;
-}
-.case-study-right {
-  padding: 80px 8%;
-  margin: 0;
-}
-.case-study-left {
-  padding: 80px 8%;
-  margin: 0;
+.case-study-description {
+  margin-bottom: 1em;
 }
 .case-study-logo {
   height: 30px;
   float: right;
 }
-.btn-read-more
-, .btn-read-more:hover {
+.btn-read-more, .btn-read-more:hover {
   margin: 3% 0 0;
   font-weight: bold;
   padding: 0 !important;
@@ -1201,52 +1181,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 .box-shadow {
   box-shadow: 0 0 20px rgba(33,33,33,.2);
 }
-#more-cases-btn {
-  padding: 4% 0;
-}
-@media (max-width: 768px) {
+@media (min-width: 992px) {
   #case-studies-title {
-    padding-left: 15px;
+    padding-left: 8%;
+    margin-bottom: 2em;
   }
-  #more-cases {
-    padding: 15px;
-  }
-  #more-cases-btn {
-    padding: 3% 0;
-  }
-  #more-cases-btn span {
-    top: 30%;
-  }
-  #more-cases {
-    padding-top: 5%;
-    position: inherit;
-    top: 0;
-    left: 0;
-  }
-  #case-studies {
-    padding-bottom: 0;
-  }
-  .case-study-left {
-    padding: 5% 0;
-  }
-  .case-study-left-text {
-    position: inherit;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  .case-study-right {
-    padding: 5% 0;
-  }
-  .case-study-right-text {
-    position: inherit;
-    top: 0;
-    left: 0;
-    width: 100%;
+  .case-study {
+    margin: 0 0 -100px;
+    padding: 0 2em;
   }
   .case-study-image {
-    padding: 0;
-    margin-bottom: 0;
+    width: 80%;
+    max-width: 700px;
+    z-index: 1;
+  }
+  .case-study-left .case-study-image {
+    margin-left: calc((80% - 700px)/4);
+  }
+  .case-study-right .case-study-image {
+    margin-right: calc((80% - 700px)/4);
+  }
+  .case-study-text {
+    padding: 5%;
+    width: 50%;
+    max-width: 600px;
+    position: relative;
+    top: -200px;
+    background: #fff;
+    z-index: 2;
+    margin: 0 calc((80% - 700px)/4);
+  }
+  .case-study-left-text {
+    left: 30%;
+  }
+  .case-study-right-text {
+    right: 30%;
   }
 }
 
