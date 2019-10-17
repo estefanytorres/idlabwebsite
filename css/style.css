@@ -1161,7 +1161,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .case-study-image {
   width: 100%;
-  height: auto;
+  height: 20%;
 }
 .case-study-text {
   padding: 2em;
@@ -1194,6 +1194,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .case-study-image {
     width: 80%;
     max-width: 700px;
+    height: auto;
     z-index: 1;
   }
   .case-study-left .case-study-image {
